@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    /* background-color: coral; */
-    background-color: #38A3A5;
+    /* background-color: #38A3A5; */
+    background-color: #C9CCD5;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     height: 100%;
 }
@@ -13,7 +13,6 @@ body {
 
 .container_main {
     margin: 2rem auto auto auto;
-    /* background-color: #38A3A5; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,14 +23,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #38A3A5; */
     width: 480px;
     margin: 0;
     padding: 2.5rem 0;
 }
 
 .container_text {
-    /* background-color: #38A3A5; */
     width: 480px;
     display: flex;
     flex-direction: column;
@@ -58,15 +55,14 @@ img {
 header>div>a {
     text-decoration: none;
     display: inline-block;
-    margin: 1rem 0.5rem;
+    margin: 0.5rem 0.8rem;
     color: white;
 }
 
 
 .navbar {
-    /* background-color:#22577A ; */
-    /* color: #38A3A5;  */
-    background-color: black;
+    /* background-color: black; */
+    background-color: #93B5C6;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +75,8 @@ header>div>a {
     margin: 0;
     width: 100%;
     height: 2.3rem;
-    background-color: black ;
+    /* background-color: black ; */
+    background-color: #93B5C6;
     color: white; 
     margin-bottom: 0;
     padding-top: 0.25rem;
@@ -97,12 +94,14 @@ header>div>a {
     margin: auto 10px;
     padding: 0;
     color: white;
+    /* color: #47373c; */
 }
 .linkedin_icon {
     display: inline-block;
     margin: auto auto auto 10px;
     padding: 0;
     color: white;
+    /* color: #E4D8DC; */
 }
 
 
