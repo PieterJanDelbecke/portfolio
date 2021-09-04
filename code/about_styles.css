@@ -1,6 +1,8 @@
+/* body */
+
 body {
     margin: 0;
-    background-color:#686D76;
+    background-color: #686D76;
     /* background-color: #C9CCD5; */
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     height: 100%;
@@ -12,28 +14,37 @@ body {
     width: 100%;
 }
 
-.navbar {
+/* navbar */
+nav {
     width: 100%;
     background-color: #373A40;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-
+    justify-content: center;
 }
 
-
-header>div>a {
+header>nav>a {
     text-decoration: none;
     display: inline-block;
     margin: 0.5rem 0.8rem;
     color: white;
 }
-.punch:hover{
+
+@media (min-width:600px) {
+    nav {
+        justify-content: flex-end;
+    }
+}
+
+.punch:hover {
     color: #19D3DA;
 }
-.rainbow{
+
+/* About me: introduction */
+.rainbow {
     color: #19D3DA;
 }
+
 .decoration {
     text-decoration: none;
 }
@@ -68,14 +79,11 @@ header>div>a {
     /* background-color: cyan; */
 }
 
-.skills_container {
-    /* color: black; */
-    color: white;
-    /* color: #19D3DA; */
-    /* background-color:#686D76; */
-    /* background-color: #C9CCD5; */
-    background-color: #373A40;
+/* skills */
 
+.skills_container {
+    color: white;
+    background-color: #373A40;
 }
 
 .skills_intro,
@@ -112,10 +120,15 @@ header>div>a {
 }
 
 .skills_outro_text {
-    width: 370px;
+    width: 80%;
     padding-bottom: 2rem;
     margin: 0 auto;
 }
+/* @media (min-width: 620px) {
+    
+} */
+
+/* Prevoius Career */
 
 .career_content {
     grid-template-columns: auto;
@@ -128,13 +141,15 @@ header>div>a {
         grid-template-columns: auto auto;
         grid-template-rows: auto;
     }
-    .career_img{
+
+    .career_img {
         width: 436px;
         display: block;
-       padding: 0 0 0 3rem;
+        padding: 0 0 0 3rem;
     }
 
 }
+
 .career_img {
     width: 436px;
     display: block;
@@ -147,7 +162,7 @@ header>div>a {
     margin: 7%;
 }
 
-@media (min-width: 615px) {
+@media (min-width: 620px) {
     .skills_grid {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -200,6 +215,8 @@ header>div>a {
     }
 }
 
+/* footer */
+
 .footbox {
     margin: 0;
     width: 100%;
@@ -225,7 +242,6 @@ header>div>a {
     margin: auto 10px;
     padding: 0;
     color: white;
-    /* color: #47373c; */
 }
 
 .linkedin_icon {
@@ -233,5 +249,4 @@ header>div>a {
     margin: auto auto auto 10px;
     padding: 0;
     color: white;
-    /* color: #E4D8DC; */
 }
