@@ -1,0 +1,162 @@
+/* body */
+
+body {
+    margin: 0;
+    background-color: #686D76;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    height: 100%;
+}
+
+.background {
+    height: 10rem;
+    width: 100%;
+}
+.punch:hover {
+    color: #19D3DA;
+}
+
+/* navbar */
+nav {
+    background-color: #373A40;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header>nav>a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem 0.8rem;
+    color: white;
+}
+
+@media (min-width:600px) {
+    nav {
+        justify-content: flex-end;
+    }
+}
+
+/* picture */
+
+.container_main {
+    margin: 2rem auto auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    margin: 0;
+    padding: 2.5rem 0;
+}
+
+img {
+    display: block;
+    width: 75%;
+}
+
+@media (min-width:900px) {
+    img {
+        width: 400px;
+    }
+}
+
+/* intro text */
+.rainbow {
+    color: #19D3DA;
+}
+.container_text {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .container_text {
+        width: 436px;
+    }
+
+}
+
+.quote {
+    margin: 4rem 0;
+    text-align: center;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    margin: 5rem 2rem;
+    color: white;
+}
+@media (max-width: 914px) {
+    .quote {
+        margin: 1rem 0 2rem 0;
+    }
+
+    .intro {
+        margin: 1rem 8% 1.2rem;
+    }
+
+    .container_main {
+        margin-top: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+/* footer */
+.footbox {
+    margin: 0;
+    width: 100%;
+    height: 2.3rem;
+    background-color: #373A40;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 0.25rem;
+    display: flex;
+    justify-content: center;
+    /* position: ; */
+    bottom: 0;
+}
+@media (min-width: 916px) {
+    .footbox {
+        display: static;
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
+.copyright {
+    display: inline-block;
+    margin: auto 10px auto auto;
+    padding: 0;
+}
+
+.github_icon {
+    display: inline-block;
+    margin: auto 10px;
+    padding: 0;
+    color: white;
+}
+
+.linkedin_icon {
+    display: inline-block;
+    margin: auto auto auto 10px;
+    padding: 0;
+    color: white;
+}
+
+
+
+
+
