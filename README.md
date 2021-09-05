@@ -11,7 +11,7 @@ With this portfolio I want to show potential future employers who I am and what 
 
 The site contains four pages as shown on the sitemap: 
 
-![sitemap](sitemap.png) 
+![sitemap](./docs/sitemap.png) 
 
 - **Home Page:** page with a picture of me and a quick intro.
 - **About Page:** page where I introduce myself and I talk about my skills/tools as a web developer. I also have a part that addresses my previous work life.
@@ -27,26 +27,26 @@ The site contains four pages as shown on the sitemap:
 
 ### Browser:
 
-![home page](browser_home-page.png)
+![home page](./docs/browser_home-page.png)
 
-![about page - skills](browser_about-page.png)
+![about page - skills](./docs/browser_about-page.png)
 
 
 
 ### iPad:
 
-![about page - previous career](ipad_about-page.png)
+![about page - previous career](./docs/ipad_about-page.png)
 
-![blog page](ipad_blog-page.png)
+![blog page](./docs/ipad_blog-page.png)
 
 
 ### iPhone:
 
-![blog page](iphone_blog-page.png)
+![blog page](./docs/iphone_blog-page.png)
 
-![career page](iphone_career-page.png)
+![career page](./docs/iphone_career-page.png)
 
-![home page](iphone_home-page.png)
+![home page](./docs/iphone_home-page.png)
 
 
 
